@@ -1,0 +1,17 @@
+			MailZu
+		====================
+
+  		http://www.mailzu.net
+
+MailZu is a quarantine management interface for amavisd-new
+( http://www.ijs.si/software/amavisd/ ).
+
+It provides users and administrators access to email that is suspected to be
+spam or contain banned contents and gives users the ability to release, request,
+or delete these messages from their quarantine.
+
+Users can access their personal quarantine by authenticating to various
+pre-existent backends such as LDAP ( or Active Directory ) or any PHP PEAR
+supported database.
+
+See the INSTALL file in the docs/ directory included with this distribution.
